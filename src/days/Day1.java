@@ -1,3 +1,5 @@
+package days;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
@@ -6,7 +8,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class main {
+public class Day1 {
 
     private static Map<String, Integer> mappedValues = new HashMap<>(){
         {
