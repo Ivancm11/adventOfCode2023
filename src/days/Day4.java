@@ -9,7 +9,7 @@ public class Day4 {
 
     public static void main(String[] args) {
         try {
-            File myObj = new File("src/inputs/inputFour.txt");
+            File myObj = new File("src/inputs/input4.txt");
             Scanner myReader = new Scanner(myObj);
             partTwo(myReader);
         } catch (FileNotFoundException e) {

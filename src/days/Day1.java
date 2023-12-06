@@ -25,7 +25,7 @@ public class Day1 {
     };
     public static void main(String[] args) {
         try {
-            File myObj = new File("src/inputs/inputOne.txt");
+            File myObj = new File("src/inputs/input1.txt");
             Scanner myReader = new Scanner(myObj);
             int sum = 0;
             while (myReader.hasNextLine()) {
